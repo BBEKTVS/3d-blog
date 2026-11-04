@@ -1,0 +1,48 @@
+{
+  "name": "3d-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "sanity:dev": "sanity dev",
+    "sanity:deploy": "sanity deploy",
+    "sanity:build": "sanity build"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
+    "@react-three/fiber": "8.16.0",
+    "@react-three/drei": "9.106.0",
+    "@react-three/postprocessing": "2.16.0",
+    "three": "0.164.0",
+    "gsap": "3.12.5",
+    "@gsap/react": "2.1.1",
+    "lenis": "1.1.13",
+    "next-sanity": "9.3.0",
+    "sanity": "3.37.0",
+    "@sanity/image-url": "1.0.2",
+    "@sanity/portable-text-editor": "1.0.0",
+    "@portabletext/react": "3.0.17",
+    "date-fns": "3.6.0",
+    "clsx": "2.1.0",
+    "tailwind-merge": "2.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.12.0",
+    "@types/react": "18.3.0",
+    "@types/react-dom": "18.3.0",
+    "@types/three": "0.164.0",
+    "typescript": "5.4.0",
+    "tailwindcss": "3.4.0",
+    "postcss": "8.4.38",
+    "autoprefixer": "10.4.19",
+    "eslint": "8.57.0",
+    "eslint-config-next": "14.2.0",
+    "@tailwindcss/typography": "0.5.13"
+  }
+}
